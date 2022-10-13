@@ -159,7 +159,6 @@ section p:nth-child(odd){
 .content-wrap{
     width: 80%;
     margin: auto;
-    margin-bottom: 60px;
     background-color: #fff;
     border: 1px solid #eee;
     border-radius: 20px;
