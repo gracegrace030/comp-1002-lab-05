@@ -14,8 +14,8 @@
 
 /* Defaults */
 html, body, header, main, section {
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    width: 100vw;
     scroll-behavior: smooth;
 }
 
@@ -59,8 +59,8 @@ header {
 }
 
 .main-header-titles {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,6 +159,7 @@ section p:nth-child(odd){
 .content-wrap{
     width: 80%;
     margin: auto;
+    margin-bottom: 60px;
     background-color: #fff;
     border: 1px solid #eee;
     border-radius: 20px;
@@ -186,6 +187,19 @@ section p:nth-child(odd){
 
 figure > img {
     width: 100%;
+}
+
+header cite {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: var(--bg-color-section);
+    width: 100%;
+    padding: 0.5em
+}
+
+header cite > a {
+    color: #333;
 }
 
 cite {
